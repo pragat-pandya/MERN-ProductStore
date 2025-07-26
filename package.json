@@ -1,0 +1,27 @@
+{
+  "name": "productstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pragat-pandya/MERN-ProductStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pragat-pandya/MERN-ProductStore/issues"
+  },
+  "homepage": "https://github.com/pragat-pandya/MERN-ProductStore#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.16.5"
+  }
+}
