@@ -19,8 +19,10 @@ app.use("/api/products", productRoutes);
 //     res.send("Server is up and running!")
 // });
 
+const PORT = process.env.BACKEND_PORT;
+
 // Server listening on localhost 5001 port
-app.listen(5001, () => {
+app.listen(PORT, () => {
     connectDB();
-    console.log("Server Started at http://localhost:5001");
+    console.log("Server Started at http://localhost:"+PORT);
 });
